@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		947AB240210087C200DA45B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AB23F210087C200DA45B0 /* AppDelegate.swift */; };
+		947AB242210087C200DA45B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AB241210087C200DA45B0 /* ViewController.swift */; };
+		947AB247210087D500DA45B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947AB246210087D500DA45B0 /* Assets.xcassets */; };
+		947AB24A210087D500DA45B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947AB248210087D500DA45B0 /* LaunchScreen.storyboard */; };
+		947AB255210087D500DA45B0 /* XeroxChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AB254210087D500DA45B0 /* XeroxChatTests.swift */; };
+		947AB260210087D500DA45B0 /* XeroxChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AB25F210087D500DA45B0 /* XeroxChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		947AB251210087D500DA45B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947AB234210087C200DA45B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 947AB23B210087C200DA45B0;
+			remoteInfo = XeroxChat;
+		};
+		947AB25C210087D500DA45B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947AB234210087C200DA45B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 947AB23B210087C200DA45B0;
+			remoteInfo = XeroxChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		947AB23C210087C200DA45B0 /* XeroxChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XeroxChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		947AB23F210087C200DA45B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		947AB241210087C200DA45B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		947AB246210087D500DA45B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		947AB249210087D500DA45B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		947AB24B210087D500DA45B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947AB250210087D500DA45B0 /* XeroxChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XeroxChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		947AB254210087D500DA45B0 /* XeroxChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroxChatTests.swift; sourceTree = "<group>"; };
+		947AB256210087D500DA45B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947AB25B210087D500DA45B0 /* XeroxChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XeroxChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		947AB25F210087D500DA45B0 /* XeroxChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroxChatUITests.swift; sourceTree = "<group>"; };
+		947AB261210087D500DA45B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		947AB239210087C200DA45B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947AB24D210087D500DA45B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947AB258210087D500DA45B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		947AB233210087C200DA45B0 = {
+			isa = PBXGroup;
+			children = (
+				947AB23E210087C200DA45B0 /* XeroxChat */,
+				947AB253210087D500DA45B0 /* XeroxChatTests */,
+				947AB25E210087D500DA45B0 /* XeroxChatUITests */,
+				947AB23D210087C200DA45B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		947AB23D210087C200DA45B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947AB23C210087C200DA45B0 /* XeroxChat.app */,
+				947AB250210087D500DA45B0 /* XeroxChatTests.xctest */,
+				947AB25B210087D500DA45B0 /* XeroxChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947AB23E210087C200DA45B0 /* XeroxChat */ = {
+			isa = PBXGroup;
+			children = (
+				947AB23F210087C200DA45B0 /* AppDelegate.swift */,
+				947AB241210087C200DA45B0 /* ViewController.swift */,
+				947AB246210087D500DA45B0 /* Assets.xcassets */,
+				947AB248210087D500DA45B0 /* LaunchScreen.storyboard */,
+				947AB24B210087D500DA45B0 /* Info.plist */,
+			);
+			path = XeroxChat;
+			sourceTree = "<group>";
+		};
+		947AB253210087D500DA45B0 /* XeroxChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				947AB254210087D500DA45B0 /* XeroxChatTests.swift */,
+				947AB256210087D500DA45B0 /* Info.plist */,
+			);
+			path = XeroxChatTests;
+			sourceTree = "<group>";
+		};
+		947AB25E210087D500DA45B0 /* XeroxChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				947AB25F210087D500DA45B0 /* XeroxChatUITests.swift */,
+				947AB261210087D500DA45B0 /* Info.plist */,
+			);
+			path = XeroxChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		947AB23B210087C200DA45B0 /* XeroxChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947AB264210087D500DA45B0 /* Build configuration list for PBXNativeTarget "XeroxChat" */;
+			buildPhases = (
+				947AB238210087C200DA45B0 /* Sources */,
+				947AB239210087C200DA45B0 /* Frameworks */,
+				947AB23A210087C200DA45B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XeroxChat;
+			productName = XeroxChat;
+			productReference = 947AB23C210087C200DA45B0 /* XeroxChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		947AB24F210087D500DA45B0 /* XeroxChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947AB267210087D500DA45B0 /* Build configuration list for PBXNativeTarget "XeroxChatTests" */;
+			buildPhases = (
+				947AB24C210087D500DA45B0 /* Sources */,
+				947AB24D210087D500DA45B0 /* Frameworks */,
+				947AB24E210087D500DA45B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947AB252210087D500DA45B0 /* PBXTargetDependency */,
+			);
+			name = XeroxChatTests;
+			productName = XeroxChatTests;
+			productReference = 947AB250210087D500DA45B0 /* XeroxChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		947AB25A210087D500DA45B0 /* XeroxChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947AB26A210087D500DA45B0 /* Build configuration list for PBXNativeTarget "XeroxChatUITests" */;
+			buildPhases = (
+				947AB257210087D500DA45B0 /* Sources */,
+				947AB258210087D500DA45B0 /* Frameworks */,
+				947AB259210087D500DA45B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947AB25D210087D500DA45B0 /* PBXTargetDependency */,
+			);
+			name = XeroxChatUITests;
+			productName = XeroxChatUITests;
+			productReference = 947AB25B210087D500DA45B0 /* XeroxChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		947AB234210087C200DA45B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mybucket;
+				TargetAttributes = {
+					947AB23B210087C200DA45B0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					947AB24F210087D500DA45B0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 947AB23B210087C200DA45B0;
+					};
+					947AB25A210087D500DA45B0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 947AB23B210087C200DA45B0;
+					};
+				};
+			};
+			buildConfigurationList = 947AB237210087C200DA45B0 /* Build configuration list for PBXProject "XeroxChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 947AB233210087C200DA45B0;
+			productRefGroup = 947AB23D210087C200DA45B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				947AB23B210087C200DA45B0 /* XeroxChat */,
+				947AB24F210087D500DA45B0 /* XeroxChatTests */,
+				947AB25A210087D500DA45B0 /* XeroxChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		947AB23A210087C200DA45B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947AB24A210087D500DA45B0 /* LaunchScreen.storyboard in Resources */,
+				947AB247210087D500DA45B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947AB24E210087D500DA45B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947AB259210087D500DA45B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		947AB238210087C200DA45B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947AB242210087C200DA45B0 /* ViewController.swift in Sources */,
+				947AB240210087C200DA45B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947AB24C210087D500DA45B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947AB255210087D500DA45B0 /* XeroxChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947AB257210087D500DA45B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947AB260210087D500DA45B0 /* XeroxChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		947AB252210087D500DA45B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 947AB23B210087C200DA45B0 /* XeroxChat */;
+			targetProxy = 947AB251210087D500DA45B0 /* PBXContainerItemProxy */;
+		};
+		947AB25D210087D500DA45B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 947AB23B210087C200DA45B0 /* XeroxChat */;
+			targetProxy = 947AB25C210087D500DA45B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		947AB248210087D500DA45B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947AB249210087D500DA45B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		947AB262210087D500DA45B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		947AB263210087D500DA45B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		947AB265210087D500DA45B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XeroxChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybucket.XeroxChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		947AB266210087D500DA45B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XeroxChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybucket.XeroxChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		947AB268210087D500DA45B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XeroxChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybucket.XeroxChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XeroxChat.app/XeroxChat";
+			};
+			name = Debug;
+		};
+		947AB269210087D500DA45B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XeroxChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybucket.XeroxChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XeroxChat.app/XeroxChat";
+			};
+			name = Release;
+		};
+		947AB26B210087D500DA45B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XeroxChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybucket.XeroxChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XeroxChat;
+			};
+			name = Debug;
+		};
+		947AB26C210087D500DA45B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XeroxChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybucket.XeroxChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XeroxChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		947AB237210087C200DA45B0 /* Build configuration list for PBXProject "XeroxChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947AB262210087D500DA45B0 /* Debug */,
+				947AB263210087D500DA45B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947AB264210087D500DA45B0 /* Build configuration list for PBXNativeTarget "XeroxChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947AB265210087D500DA45B0 /* Debug */,
+				947AB266210087D500DA45B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947AB267210087D500DA45B0 /* Build configuration list for PBXNativeTarget "XeroxChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947AB268210087D500DA45B0 /* Debug */,
+				947AB269210087D500DA45B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947AB26A210087D500DA45B0 /* Build configuration list for PBXNativeTarget "XeroxChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947AB26B210087D500DA45B0 /* Debug */,
+				947AB26C210087D500DA45B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 947AB234210087C200DA45B0 /* Project object */;
+}
