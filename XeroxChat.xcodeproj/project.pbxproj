@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		947AB240210087C200DA45B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AB23F210087C200DA45B0 /* AppDelegate.swift */; };
-		947AB242210087C200DA45B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AB241210087C200DA45B0 /* ViewController.swift */; };
+		947AB242210087C200DA45B0 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AB241210087C200DA45B0 /* SignInVC.swift */; };
 		947AB247210087D500DA45B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947AB246210087D500DA45B0 /* Assets.xcassets */; };
 		947AB24A210087D500DA45B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947AB248210087D500DA45B0 /* LaunchScreen.storyboard */; };
 		947AB255210087D500DA45B0 /* XeroxChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AB254210087D500DA45B0 /* XeroxChatTests.swift */; };
 		947AB260210087D500DA45B0 /* XeroxChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AB25F210087D500DA45B0 /* XeroxChatUITests.swift */; };
+		947AB271210091B200DA45B0 /* Anchors-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AB270210091B200DA45B0 /* Anchors-Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* Begin PBXFileReference section */
 		947AB23C210087C200DA45B0 /* XeroxChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XeroxChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		947AB23F210087C200DA45B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		947AB241210087C200DA45B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		947AB241210087C200DA45B0 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		947AB246210087D500DA45B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		947AB249210087D500DA45B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		947AB24B210087D500DA45B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		947AB25B210087D500DA45B0 /* XeroxChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XeroxChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		947AB25F210087D500DA45B0 /* XeroxChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroxChatUITests.swift; sourceTree = "<group>"; };
 		947AB261210087D500DA45B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947AB270210091B200DA45B0 /* Anchors-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Anchors-Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				947AB23F210087C200DA45B0 /* AppDelegate.swift */,
-				947AB241210087C200DA45B0 /* ViewController.swift */,
 				947AB246210087D500DA45B0 /* Assets.xcassets */,
+				947AB26F2100918F00DA45B0 /* Extensions */,
+				947AB26D210090FE00DA45B0 /* SignIn */,
 				947AB248210087D500DA45B0 /* LaunchScreen.storyboard */,
 				947AB24B210087D500DA45B0 /* Info.plist */,
 			);
@@ -120,6 +123,30 @@
 				947AB261210087D500DA45B0 /* Info.plist */,
 			);
 			path = XeroxChatUITests;
+			sourceTree = "<group>";
+		};
+		947AB26D210090FE00DA45B0 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				947AB26E2100911F00DA45B0 /* Controller */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		947AB26E2100911F00DA45B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				947AB241210087C200DA45B0 /* SignInVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		947AB26F2100918F00DA45B0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				947AB270210091B200DA45B0 /* Anchors-Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,8 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				947AB242210087C200DA45B0 /* ViewController.swift in Sources */,
+				947AB242210087C200DA45B0 /* SignInVC.swift in Sources */,
 				947AB240210087C200DA45B0 /* AppDelegate.swift in Sources */,
+				947AB271210091B200DA45B0 /* Anchors-Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
